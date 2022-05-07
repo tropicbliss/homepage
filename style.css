@@ -24,7 +24,11 @@ body {
 }
 
 .dark-mode a {
-  color: goldenrod;
+  color: orange;
+}
+
+.dark-mode a:visited {
+  color: yellow;
 }
 
 @media (max-width: 600px) {
