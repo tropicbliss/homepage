@@ -1,0 +1,34 @@
+.container {
+  margin-right: 20%;
+}
+
+#fortune {
+  font-size: x-small;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #eeeeee;
+  color: #111111;
+}
+
+.dark-mode {
+  background-color: #111111;
+  color: #eeeeee;
+}
+
+.dark-mode a {
+  color: goldenrod;
+}
+
+@media (max-width: 600px) {
+  .container {
+    margin: auto;
+  }
+}
