@@ -20,5 +20,5 @@ const quotes = [
     /* calculate a random index */
     index = Math.floor(Math.random() * quotes.length);
     /* display the quotation */
-    document.write("<p id='fortune'>" + quotes[index] + "</p>");
+    document.write("<p class='fortune'>" + quotes[index] + "</p>");
   };
